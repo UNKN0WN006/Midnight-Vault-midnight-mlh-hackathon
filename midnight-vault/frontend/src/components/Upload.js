@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import MetadataTable from './MetadataTable';
-import QRCode from 'qrcode.react';
+import QRCode from 'react-qr-code';
 
 function Upload() {
   const [file, setFile] = useState(null);
